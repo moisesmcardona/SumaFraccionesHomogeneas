@@ -1,0 +1,206 @@
+﻿<UserControl x:Class="AddExersices1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="376" d:DesignWidth="425">
+    <Grid Height="352" Width="404">
+        <Label Content="1" Height="28" HorizontalAlignment="Left" Margin="12,12,0,0" Name="Label1" VerticalAlignment="Top" />
+        <Ellipse Height="26" HorizontalAlignment="Left" Margin="5,11,0,0" Name="Ellipse1" Stroke="Black" VerticalAlignment="Top" Width="28" />
+        <Label Content="1" Height="28" HorizontalAlignment="Left" Margin="39,0,0,0" Name="Label2" VerticalAlignment="Top" />
+        <Label Content="1" Height="28" HorizontalAlignment="Left" Margin="39,22,0,0" Name="Label3" VerticalAlignment="Top" />
+        <Label Content="1" Height="28" HorizontalAlignment="Left" Margin="61,0,0,0" Name="Label4" VerticalAlignment="Top" />
+        <Label Content="1" Height="28" HorizontalAlignment="Left" Margin="61,22,0,0" Name="Label5" VerticalAlignment="Top" />
+        <Label Content="+" Height="28" HorizontalAlignment="Left" Margin="49,11,0,0" Name="Label6" VerticalAlignment="Top" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="42,24,0,0" Name="Rectangle1" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="65,24,0,0" Name="Rectangle2" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Label Content="=" Height="28" HorizontalAlignment="Left" Margin="74,10,0,0" Name="Label7" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="98,0,0,0" Name="TextBox1" VerticalAlignment="Top" Width="21"/>
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="98,27,0,0" Name="TextBox2" VerticalAlignment="Top" Width="21" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="103,25,0,0" Name="Rectangle3" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Button Content="Verify" Height="23" HorizontalAlignment="Left" Margin="146,318,0,0" x:Name="VerifyButton" VerticalAlignment="Top" Width="75" />
+        <Ellipse Height="26" HorizontalAlignment="Left" Margin="5,75,0,0" Name="Ellipse2" Stroke="Black" VerticalAlignment="Top" Width="28" />
+        <Label Content="2" Height="28" HorizontalAlignment="Left" Margin="39,63,0,0" Name="Label8" VerticalAlignment="Top" />
+        <Label Content="1" Height="28" HorizontalAlignment="Left" Margin="39,85,0,0" Name="Label9" VerticalAlignment="Top" />
+        <Label Content="1" Height="28" HorizontalAlignment="Left" Margin="61,63,0,0" Name="Label10" VerticalAlignment="Top" />
+        <Label Content="1" Height="28" HorizontalAlignment="Left" Margin="61,85,0,0" Name="Label11" VerticalAlignment="Top" />
+        <Label Content="+" Height="28" HorizontalAlignment="Left" Margin="49,74,0,0" Name="Label12" VerticalAlignment="Top" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="42,87,0,0" Name="Rectangle4" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="65,87,0,0" Name="Rectangle5" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Label Content="=" Height="28" HorizontalAlignment="Left" Margin="74,73,0,0" Name="Label13" VerticalAlignment="Top" />
+        <TextBox HorizontalAlignment="Left" Margin="98,63,0,0" Name="TextBox3" Width="21" Height="23" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="98,90,0,0" Name="TextBox4" VerticalAlignment="Top" Width="21" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="103,88,0,0" Name="Rectangle6" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Label Content="2" Height="28" HorizontalAlignment="Left" Margin="12,74,0,0" Name="Label14" VerticalAlignment="Top" />
+        <Ellipse Height="26" HorizontalAlignment="Left" Margin="5,135,0,0" Name="Ellipse3" Stroke="Black" VerticalAlignment="Top" Width="28" />
+        <Label Content="2" Height="28" HorizontalAlignment="Left" Margin="39,123,0,0" Name="Label15" VerticalAlignment="Top" />
+        <Label Content="5" Height="28" HorizontalAlignment="Left" Margin="39,145,0,0" Name="Label16" VerticalAlignment="Top" />
+        <Label Content="6" Height="28" HorizontalAlignment="Left" Margin="61,123,0,0" Name="Label17" VerticalAlignment="Top" />
+        <Label Content="5" Height="28" HorizontalAlignment="Left" Margin="61,145,0,0" Name="Label18" VerticalAlignment="Top" />
+        <Label Content="+" Height="28" HorizontalAlignment="Left" Margin="49,134,0,0" Name="Label19" VerticalAlignment="Top" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="42,147,0,0" Name="Rectangle7" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="65,147,0,0" Name="Rectangle8" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Label Content="=" Height="28" HorizontalAlignment="Left" Margin="74,133,0,0" Name="Label20" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="98,123,0,0" Name="TextBox5" VerticalAlignment="Top" Width="21" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="98,150,0,0" Name="TextBox6" VerticalAlignment="Top" Width="21" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="103,148,0,0" Name="Rectangle9" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Label Content="3" Height="28" HorizontalAlignment="Left" Margin="12,134,0,0" Name="Label21" VerticalAlignment="Top" />
+        <Ellipse Height="26" HorizontalAlignment="Left" Margin="5,197,0,0" Name="Ellipse4" Stroke="Black" VerticalAlignment="Top" Width="28" />
+        <Label Content="8" Height="28" HorizontalAlignment="Left" Margin="39,185,0,0" Name="Label22" VerticalAlignment="Top" />
+        <Label Content="7" Height="28" HorizontalAlignment="Left" Margin="39,207,0,0" Name="Label23" VerticalAlignment="Top" />
+        <Label Content="1" Height="28" HorizontalAlignment="Left" Margin="61,185,0,0" Name="Label24" VerticalAlignment="Top" />
+        <Label Content="7" Height="28" HorizontalAlignment="Left" Margin="61,207,0,0" Name="Label25" VerticalAlignment="Top" />
+        <Label Content="+" Height="28" HorizontalAlignment="Left" Margin="49,196,0,0" Name="Label26" VerticalAlignment="Top" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="42,209,0,0" Name="Rectangle10" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="65,209,0,0" Name="Rectangle11" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Label Content="=" Height="28" HorizontalAlignment="Left" Margin="74,195,0,0" Name="Label27" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="98,185,0,0" Name="TextBox7" VerticalAlignment="Top" Width="21" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="98,212,0,0" Name="TextBox8" VerticalAlignment="Top" Width="21" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="103,210,0,0" Name="Rectangle12" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Label Content="4" Height="28" HorizontalAlignment="Left" Margin="12,196,0,0" Name="Label28" VerticalAlignment="Top" />
+        <Ellipse Height="26" HorizontalAlignment="Left" Margin="5,263,0,0" Name="Ellipse5" Stroke="Black" VerticalAlignment="Top" Width="28" />
+        <Label Content="4" Height="28" HorizontalAlignment="Left" Margin="39,251,0,0" Name="Label29" VerticalAlignment="Top" />
+        <Label Content="2" Height="28" HorizontalAlignment="Left" Margin="39,273,0,0" Name="Label30" VerticalAlignment="Top" />
+        <Label Content="3" Height="28" HorizontalAlignment="Left" Margin="61,251,0,0" Name="Label31" VerticalAlignment="Top" />
+        <Label Content="2" Height="28" HorizontalAlignment="Left" Margin="61,273,0,0" Name="Label32" VerticalAlignment="Top" />
+        <Label Content="+" Height="28" HorizontalAlignment="Left" Margin="49,262,0,0" Name="Label33" VerticalAlignment="Top" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="42,275,0,0" Name="Rectangle13" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="65,275,0,0" Name="Rectangle14" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Label Content="=" Height="28" HorizontalAlignment="Left" Margin="74,261,0,0" Name="Label34" VerticalAlignment="Top" />
+        <TextBox HorizontalAlignment="Left" Margin="98,251,0,78" Name="TextBox9" Width="21" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="98,278,0,0" Name="TextBox10" VerticalAlignment="Top" Width="21" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="103,276,0,0" Name="Rectangle15" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Label Content="5" Height="28" HorizontalAlignment="Left" Margin="12,262,0,0" Name="Label35" VerticalAlignment="Top" />
+        <Ellipse Height="26" HorizontalAlignment="Left" Margin="134,12,0,0" Name="Ellipse6" Stroke="Black" VerticalAlignment="Top" Width="28" />
+        <Label Content="2" Height="28" HorizontalAlignment="Left" Margin="168,0,0,0" Name="Label36" VerticalAlignment="Top" />
+        <Label Content="4" Height="28" HorizontalAlignment="Left" Margin="168,22,0,0" Name="Label37" VerticalAlignment="Top" />
+        <Label Content="7" Height="28" HorizontalAlignment="Left" Margin="190,0,0,0" Name="Label38" VerticalAlignment="Top" />
+        <Label Content="4" Height="28" HorizontalAlignment="Left" Margin="190,22,0,0" Name="Label39" VerticalAlignment="Top" />
+        <Label Content="+" Height="28" HorizontalAlignment="Left" Margin="178,11,0,0" Name="Label40" VerticalAlignment="Top" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="171,24,0,0" Name="Rectangle16" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="194,24,0,0" Name="Rectangle17" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Label Content="=" Height="28" HorizontalAlignment="Left" Margin="203,10,0,0" Name="Label41" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="227,0,0,0" Name="TextBox11" VerticalAlignment="Top" Width="21" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="227,27,0,0" Name="TextBox12" VerticalAlignment="Top" Width="21" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="232,25,0,0" Name="Rectangle18" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Label Content="6" Height="28" HorizontalAlignment="Left" Margin="141,11,0,0" Name="Label42" VerticalAlignment="Top" />
+        <Ellipse Height="26" HorizontalAlignment="Left" Margin="134,73,0,0" Name="Ellipse7" Stroke="Black" VerticalAlignment="Top" Width="28" />
+        <Label Content="1" Height="28" HorizontalAlignment="Left" Margin="168,61,0,0" Name="Label43" VerticalAlignment="Top" />
+        <Label Content="9" Height="28" HorizontalAlignment="Left" Margin="168,83,0,0" Name="Label44" VerticalAlignment="Top" />
+        <Label Content="6" Height="28" HorizontalAlignment="Left" Margin="190,61,0,0" Name="Label45" VerticalAlignment="Top" />
+        <Label Content="9" Height="28" HorizontalAlignment="Left" Margin="190,83,0,0" Name="Label46" VerticalAlignment="Top" />
+        <Label Content="+" Height="28" HorizontalAlignment="Left" Margin="178,72,0,0" Name="Label47" VerticalAlignment="Top" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="171,85,0,0" Name="Rectangle19" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="194,85,0,0" Name="Rectangle20" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Label Content="=" Height="28" HorizontalAlignment="Left" Margin="203,71,0,0" Name="Label48" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="227,61,0,0" Name="TextBox13" VerticalAlignment="Top" Width="21" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="227,88,0,0" Name="TextBox14" VerticalAlignment="Top" Width="21" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="232,86,0,0" Name="Rectangle21" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Label Content="7" Height="28" HorizontalAlignment="Left" Margin="141,72,0,0" Name="Label49" VerticalAlignment="Top" />
+        <Ellipse Height="26" HorizontalAlignment="Left" Margin="134,135,0,0" Name="Ellipse8" Stroke="Black" VerticalAlignment="Top" Width="28" />
+        <Label Content="2" Height="28" HorizontalAlignment="Left" Margin="168,123,0,0" Name="Label50" VerticalAlignment="Top" />
+        <Label Content="3" Height="28" HorizontalAlignment="Left" Margin="168,145,0,0" Name="Label51" VerticalAlignment="Top" />
+        <Label Content="5" Height="28" HorizontalAlignment="Left" Margin="190,123,0,0" Name="Label52" VerticalAlignment="Top" />
+        <Label Content="3" Height="28" HorizontalAlignment="Left" Margin="190,145,0,0" Name="Label53" VerticalAlignment="Top" />
+        <Label Content="+" Height="28" HorizontalAlignment="Left" Margin="178,134,0,0" Name="Label54" VerticalAlignment="Top" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="171,147,0,0" Name="Rectangle22" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="194,147,0,0" Name="Rectangle23" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Label Content="=" Height="28" HorizontalAlignment="Left" Margin="203,133,0,0" Name="Label55" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="227,123,0,0" Name="TextBox15" VerticalAlignment="Top" Width="21" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="227,150,0,0" Name="TextBox16" VerticalAlignment="Top" Width="21" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="232,148,0,0" Name="Rectangle24" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Label Content="8" Height="28" HorizontalAlignment="Left" Margin="141,134,0,0" Name="Label56" VerticalAlignment="Top" />
+        <Ellipse Height="26" HorizontalAlignment="Left" Margin="134,197,0,0" Name="Ellipse9" Stroke="Black" VerticalAlignment="Top" Width="28" />
+        <Label Content="5" Height="28" HorizontalAlignment="Left" Margin="168,185,0,0" Name="Label57" VerticalAlignment="Top" />
+        <Label Content="5" Height="28" HorizontalAlignment="Left" Margin="168,207,0,0" Name="Label58" VerticalAlignment="Top" />
+        <Label Content="3" Height="28" HorizontalAlignment="Left" Margin="190,185,0,0" Name="Label59" VerticalAlignment="Top" />
+        <Label Content="5" Height="28" HorizontalAlignment="Left" Margin="190,207,0,0" Name="Label60" VerticalAlignment="Top" />
+        <Label Content="+" Height="28" HorizontalAlignment="Left" Margin="178,196,0,0" Name="Label61" VerticalAlignment="Top" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="171,209,0,0" Name="Rectangle25" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="194,209,0,0" Name="Rectangle26" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Label Content="=" Height="28" HorizontalAlignment="Left" Margin="203,195,0,0" Name="Label62" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="227,185,0,0" Name="TextBox17" VerticalAlignment="Top" Width="21" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="227,212,0,0" Name="TextBox18" VerticalAlignment="Top" Width="21" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="232,210,0,0" Name="Rectangle27" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Label Content="9" Height="28" HorizontalAlignment="Left" Margin="141,196,0,0" Name="Label63" VerticalAlignment="Top" />
+        <Ellipse Height="26" HorizontalAlignment="Left" Margin="134,260,0,0" Name="Ellipse10" Stroke="Black" VerticalAlignment="Top" Width="28" />
+        <Label Content="1" Height="28" HorizontalAlignment="Left" Margin="168,248,0,0" Name="Label64" VerticalAlignment="Top" />
+        <Label Content="6" Height="28" HorizontalAlignment="Left" Margin="168,270,0,0" Name="Label65" VerticalAlignment="Top" />
+        <Label Content="7" Height="28" HorizontalAlignment="Left" Margin="190,248,0,0" Name="Label66" VerticalAlignment="Top" />
+        <Label Content="6" Height="28" HorizontalAlignment="Left" Margin="190,270,0,0" Name="Label67" VerticalAlignment="Top" />
+        <Label Content="+" Height="28" HorizontalAlignment="Left" Margin="178,259,0,0" Name="Label68" VerticalAlignment="Top" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="171,272,0,0" Name="Rectangle28" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="194,272,0,0" Name="Rectangle29" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Label Content="=" Height="28" HorizontalAlignment="Left" Margin="203,258,0,0" Name="Label69" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="227,248,0,0" Name="TextBox19" VerticalAlignment="Top" Width="21" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="227,275,0,0" Name="TextBox20" VerticalAlignment="Top" Width="21" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="232,273,0,0" Name="Rectangle30" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Label Content="10" Height="28" HorizontalAlignment="Left" Margin="137,259,0,0" Name="Label70" VerticalAlignment="Top" />
+        <Ellipse Height="26" HorizontalAlignment="Left" Margin="264,12,0,0" Name="Ellipse11" Stroke="Black" VerticalAlignment="Top" Width="28" />
+        <Label Content="2" Height="28" HorizontalAlignment="Left" Margin="298,0,0,0" Name="Label71" VerticalAlignment="Top" />
+        <Label Content="6" Height="28" HorizontalAlignment="Left" Margin="298,22,0,0" Name="Label72" VerticalAlignment="Top" />
+        <Label Content="2" Height="28" HorizontalAlignment="Left" Margin="320,0,0,0" Name="Label73" VerticalAlignment="Top" />
+        <Label Content="6" Height="28" HorizontalAlignment="Left" Margin="320,22,0,0" Name="Label74" VerticalAlignment="Top" />
+        <Label Content="+" Height="28" HorizontalAlignment="Left" Margin="308,11,0,0" Name="Label75" VerticalAlignment="Top" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="301,24,0,0" Name="Rectangle31" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="324,24,0,0" Name="Rectangle32" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Label Content="=" Height="28" HorizontalAlignment="Left" Margin="333,10,0,0" Name="Label76" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="357,0,0,0" Name="TextBox21" VerticalAlignment="Top" Width="21" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="357,27,0,0" Name="TextBox22" VerticalAlignment="Top" Width="21" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="362,25,0,0" Name="Rectangle33" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Label Content="11" Height="28" HorizontalAlignment="Left" Margin="267,11,0,0" Name="Label77" VerticalAlignment="Top" />
+        <Ellipse Height="26" HorizontalAlignment="Left" Margin="264,70,0,0" Name="Ellipse12" Stroke="Black" VerticalAlignment="Top" Width="28" />
+        <Label Content="7" Height="28" HorizontalAlignment="Left" Margin="298,58,0,0" Name="Label78" VerticalAlignment="Top" />
+        <Label Content="8" Height="28" HorizontalAlignment="Left" Margin="298,80,0,0" Name="Label79" VerticalAlignment="Top" />
+        <Label Content="1" Height="28" HorizontalAlignment="Left" Margin="320,58,0,0" Name="Label80" VerticalAlignment="Top" />
+        <Label Content="8" Height="28" HorizontalAlignment="Left" Margin="320,80,0,0" Name="Label81" VerticalAlignment="Top" />
+        <Label Content="+" Height="28" HorizontalAlignment="Left" Margin="308,69,0,0" Name="Label82" VerticalAlignment="Top" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="301,82,0,0" Name="Rectangle34" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="324,82,0,0" Name="Rectangle35" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Label Content="=" Height="28" HorizontalAlignment="Left" Margin="333,68,0,0" Name="Label83" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="357,58,0,0" Name="TextBox23" VerticalAlignment="Top" Width="21" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="357,85,0,0" Name="TextBox24" VerticalAlignment="Top" Width="21" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="362,83,0,0" Name="Rectangle36" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Label Content="12" Height="28" HorizontalAlignment="Left" Margin="267,69,0,0" Name="Label84" VerticalAlignment="Top" />
+        <Ellipse Height="26" HorizontalAlignment="Left" Margin="264,132,0,0" Name="Ellipse13" Stroke="Black" VerticalAlignment="Top" Width="28" />
+        <Label Content="3" Height="28" HorizontalAlignment="Left" Margin="298,120,0,0" Name="Label85" VerticalAlignment="Top" />
+        <Label Content="2" Height="28" HorizontalAlignment="Left" Margin="298,142,0,0" Name="Label86" VerticalAlignment="Top" />
+        <Label Content="4" Height="28" HorizontalAlignment="Left" Margin="320,120,0,0" Name="Label87" VerticalAlignment="Top" />
+        <Label Content="2" Height="28" HorizontalAlignment="Left" Margin="320,142,0,0" Name="Label88" VerticalAlignment="Top" />
+        <Label Content="+" Height="28" HorizontalAlignment="Left" Margin="308,131,0,0" Name="Label89" VerticalAlignment="Top" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="301,144,0,0" Name="Rectangle37" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="324,144,0,0" Name="Rectangle38" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Label Content="=" Height="28" HorizontalAlignment="Left" Margin="333,130,0,0" Name="Label90" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="357,120,0,0" Name="TextBox25" VerticalAlignment="Top" Width="21" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="357,147,0,0" Name="TextBox26" VerticalAlignment="Top" Width="21" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="362,145,0,0" Name="Rectangle39" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Label Content="13" Height="28" HorizontalAlignment="Left" Margin="267,131,0,0" Name="Label91" VerticalAlignment="Top" />
+        <Ellipse Height="26" HorizontalAlignment="Left" Margin="264,197,0,0" Name="Ellipse14" Stroke="Black" VerticalAlignment="Top" Width="28" />
+        <Label Content="3" Height="28" HorizontalAlignment="Left" Margin="298,185,0,0" Name="Label92" VerticalAlignment="Top" />
+        <Label Content="4" Height="28" HorizontalAlignment="Left" Margin="298,207,0,0" Name="Label93" VerticalAlignment="Top" />
+        <Label Content="3" Height="28" HorizontalAlignment="Left" Margin="320,185,0,0" Name="Label94" VerticalAlignment="Top" />
+        <Label Content="4" Height="28" HorizontalAlignment="Left" Margin="320,207,0,0" Name="Label95" VerticalAlignment="Top" />
+        <Label Content="+" Height="28" HorizontalAlignment="Left" Margin="308,196,0,0" Name="Label96" VerticalAlignment="Top" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="301,209,0,0" Name="Rectangle40" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="324,209,0,0" Name="Rectangle41" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Label Content="=" Height="28" HorizontalAlignment="Left" Margin="333,195,0,0" Name="Label97" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="357,185,0,0" Name="TextBox27" VerticalAlignment="Top" Width="21" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="357,212,0,0" Name="TextBox28" VerticalAlignment="Top" Width="21" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="362,210,0,0" Name="Rectangle42" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Label Content="14" Height="28" HorizontalAlignment="Left" Margin="267,196,0,0" Name="Label98" VerticalAlignment="Top" />
+        <Ellipse Height="26" HorizontalAlignment="Left" Margin="264,260,0,0" Name="Ellipse15" Stroke="Black" VerticalAlignment="Top" Width="28" />
+        <Label Content="3" Height="28" HorizontalAlignment="Left" Margin="298,248,0,0" Name="Label99" VerticalAlignment="Top" />
+        <Label Content="1" Height="28" HorizontalAlignment="Left" Margin="298,270,0,0" Name="Label100" VerticalAlignment="Top" />
+        <Label Content="6" Height="28" HorizontalAlignment="Right" Margin="0,248,68,0" Name="Label101" VerticalAlignment="Top" />
+        <Label Content="1" Height="28" HorizontalAlignment="Left" Margin="320,270,0,0" Name="Label102" VerticalAlignment="Top" />
+        <Label Content="+" Height="28" HorizontalAlignment="Left" Margin="308,259,0,0" Name="Label103" VerticalAlignment="Top" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="301,272,0,0" Name="Rectangle43" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="324,272,0,0" Name="Rectangle44" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Label Content="=" Height="28" HorizontalAlignment="Left" Margin="333,258,0,0" Name="Label104" VerticalAlignment="Top" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="357,248,0,0" Name="TextBox29" VerticalAlignment="Top" Width="21" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="357,275,0,0" Name="TextBox30" VerticalAlignment="Top" Width="21" />
+        <Rectangle Height="1" HorizontalAlignment="Left" Margin="362,273,0,0" Name="Rectangle45" Stroke="Black" VerticalAlignment="Top" Width="10" />
+        <Label Content="15" Height="28" HorizontalAlignment="Left" Margin="267,259,0,0" Name="Label105" VerticalAlignment="Top" />
+    </Grid>
+</UserControl>
